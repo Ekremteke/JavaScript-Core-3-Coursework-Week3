@@ -15,6 +15,7 @@ Take a look at the following code:
 ```
 
 Explain why line 4 and line 6 output different numbers.
+`Because one of them defined inside the function the other outside the function.`
 
 ## Question 2
 
@@ -34,6 +35,7 @@ console.log(y)
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
+` x was defined outside of the f1 function, for this reason it can be reached inside and outside of the function. But due to y was defined inside of the f1 function, it can not be reached outside of f1 function.`
 
 ## Question 3
 
@@ -62,3 +64,4 @@ console.log(y);
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
+`due to variable of the x is 'const', f1 function can not change value of the x. y is an object for this reason despite its variable 'const' its value can change. So this code will log 9(value of the x) and {x:10}`
